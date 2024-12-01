@@ -23,12 +23,12 @@ npm install react-headmaster
 
 ```jsx
 import React from 'react';
-import { HeadManager } from 'react-headmaster';
+import { HeadMaster } from 'react-headmaster';
 
 function MyPage() {
   return (
     <div>
-      <HeadManager 
+      <HeadMaster 
         title="My Awesome Page" 
         meta={{ description: "A page about React SEO and head management." }} 
       />
@@ -46,12 +46,12 @@ You can update multiple meta tags, including Open Graph tags for social media:
 
 ```jsx
 import React from 'react';
-import { HeadManager } from 'react-headmaster';
+import { HeadMaster } from 'react-headmaster';
 
 function SocialPage() {
   return (
     <div>
-      <HeadManager
+      <HeadMaster
         title="Shareable Content"
         meta={{
           description: "An example of a page with Open Graph tags.",
@@ -72,7 +72,7 @@ export default SocialPage;
 
 ### `HeadMaster`
 
-`HeadManager` is a React component that accepts the following props:
+`HeadMaster` is a React component that accepts the following props:
 
 | Props        | Type             | Description                         |
 | :----------- | :--------------  | :----------------------------------- |
@@ -82,7 +82,7 @@ export default SocialPage;
 ### Example
 
 ```jsx
-<HeadManager
+<HeadMaster
   title="My Custom Title"
   meta={{
     description: "Custom meta description",
