@@ -75,7 +75,7 @@ export default SocialPage;
 `HeadManager` is a React component that accepts the following props:
 
 | Props        | Type             | Description                         |
-| :----------- | :--------------  | ----------------------------------- |
+| :----------- | :--------------  | :----------------------------------- |
 | `title`      | string           | The title to set for the document.  |
 | `meta`       | object           | An object where keys are meta tag names and values are content. |
 
