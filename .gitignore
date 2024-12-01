@@ -1,9 +1,6 @@
 # Node modules
 node_modules/
 
-# Build output
-dist/
-
 # Exclude local tests
 tests/
 __tests__/
