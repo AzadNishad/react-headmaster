@@ -74,7 +74,7 @@ export default SocialPage;
 
 `HeadManager` is a React component that accepts the following props:
 
-| Left         | Centered         | Right                               |
+| Props        | Type             | Description                         |
 | :----------- | :--------------  | ----------------------------------- |
 | `title`      | string           | The title to set for the document.  |
 | `meta`       | object           | An object where keys are meta tag names and values are content. |
@@ -103,4 +103,5 @@ Contributions are welcome! Please submit a pull request or open an issue if you 
 -------------------------------------------------------------------------------
 
 Enjoy using React Headmaster to enhance your React app's SEO!
+
 Let me know if you'd like any more adjustments! 😊
