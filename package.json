@@ -1,0 +1,42 @@
+{
+  "name": "react-headmaster",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "A lightweight React library for managing dynamic updates to document head elements like title and meta tags. Perfect for SEO optimization and social media integration in React apps.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "react",
+    "react-helmet",
+    "head management",
+    "meta tags",
+    "seo",
+    "dynamic title",
+    "dynamic meta",
+    "react head",
+    "document head",
+    "head elements",
+    "open graph",
+    "og tags",
+    "social media sharing",
+    "web development",
+    "react hooks",
+    "frontend",
+    "SSR",
+    "SPA"
+  ],
+  "author": "azad_nishad",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "rollup": "^4.28.0"
+  }
+}
