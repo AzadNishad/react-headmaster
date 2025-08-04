@@ -20,3 +20,4 @@ yarn-error.log*
 
 # Git and environment files
 .npmignore
+config.bat

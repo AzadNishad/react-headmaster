@@ -2,6 +2,7 @@
   "name": "react-headmaster",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts", 
   "description": "A lightweight React library for managing dynamic updates to document head elements like title and meta tags. Perfect for SEO optimization and social media integration in React apps.",
   "type": "module",
   "scripts": {

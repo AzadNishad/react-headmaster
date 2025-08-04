@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "declaration": true,  // Generates type declarations
+      "outDir": "./dist",   // Output directory for compiled files
+      "esModuleInterop": true,
+      "strict": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
